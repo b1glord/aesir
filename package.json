@@ -83,8 +83,8 @@
 	"sourceFiles-linux": [ "/usr/lib/gcc/x86_64-redhat-linux/6.3.1/libstdc++.a" ],
 
 	"libs-linux": [ "X11", "Xext", "Xi", "asound", "sqlite3-static" ],
-	"libs": [ "sdl_mixer_x64", "sdl_x64", "sdl_ttf_x64", "lispsm_x64" ],
+	"libs": [ "sdl_mixer_x64", "sdl_x64", "sdl_ttf_x64", "lispsm_x64", "sqlite3" ],
 
 	"lflags-linux": [ "-Lutils/deps" ],
-	"lflags-windows": [ "/LIBPATH:utils/deps" ],
+	"lflags-windows": [ "/LIBPATH:utils/deps", "/LIBPATH:3rdparty" ],
 }
